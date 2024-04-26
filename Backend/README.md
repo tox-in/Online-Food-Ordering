@@ -1,1 +1,0 @@
-this is a Fullstack real world, e-commerce, springboot and react based food-ordering-application built on top of collaboration between tony herve(tox-in) as a backend developer and Ibikoraneza Dieudonne(dieudonne-ibikoraneza) as a frontend developer
