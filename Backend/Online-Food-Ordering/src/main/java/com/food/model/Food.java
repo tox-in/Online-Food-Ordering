@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 @AllArgsConstructor
@@ -40,4 +41,6 @@ public class Food {
     private boolean isSeasonal;
 
     private List<IngredientsItem> ingredients = new ArrayList<>();
+
+    private Date creationDate;
 }
