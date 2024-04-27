@@ -10,21 +10,14 @@ import net.minidev.json.annotate.JsonIgnore;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "orders")
-public class Order {
+public class Category {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    @ManyToOne
-    private User customer;
+    private String name;
 
+    @ManyToOne
     @JsonIgnore
-    @ManyToOne
     private Restaurant restaurant;
-
-    private Long totalAmount;
-
-    private String orderStatus;
-
 }

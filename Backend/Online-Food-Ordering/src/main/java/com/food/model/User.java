@@ -1,12 +1,10 @@
 package com.food.model;
 
 import com.food.dto.RestaurantDto;
-import com.nimbusds.openid.connect.sdk.claims.Address;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import com.food.model.USER_ROLE;
 import net.minidev.json.annotate.JsonIgnore;
 
 import java.util.ArrayList;
@@ -35,7 +33,7 @@ public class User {
     private List<Order> orders = new ArrayList<>();
 
     @ElementCollection
-    private List<RestaurantDto>favorites = new ArrayList();
+    private List<RestaurantDto>favorites = new ArrayList<>();
 
     private List<Address> addresses = new ArrayList<>();
 }
