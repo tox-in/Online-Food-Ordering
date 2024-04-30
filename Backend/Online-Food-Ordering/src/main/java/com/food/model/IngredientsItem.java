@@ -8,8 +8,8 @@ import net.minidev.json.annotate.JsonIgnore;
 
 @Entity
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 public class IngredientsItem {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
